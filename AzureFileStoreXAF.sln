@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFileStoreXAF.Module", "AzureFileStoreXAF.Module\AzureFileStoreXAF.Module.csproj", "{09F57C2E-06B8-4BA7-9379-6D332B06B189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFileStoreXAF.Module.Web", "AzureFileStoreXAF.Module.Web\AzureFileStoreXAF.Module.Web.csproj", "{423C20CF-438D-41DF-A2C3-650A67B1C667}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58B86EF1-1E4D-42EB-BBFD-DB83F40F9142} = {58B86EF1-1E4D-42EB-BBFD-DB83F40F9142}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFileStoreXAF.Web", "AzureFileStoreXAF.Web\AzureFileStoreXAF.Web.csproj", "{D1F29527-F01E-4AC0-820F-4CEB00ED3D77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFileData", "AzureFileData\AzureFileData.csproj", "{58B86EF1-1E4D-42EB-BBFD-DB83F40F9142}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09F57C2E-06B8-4BA7-9379-6D332B06B189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F57C2E-06B8-4BA7-9379-6D332B06B189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F57C2E-06B8-4BA7-9379-6D332B06B189}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{09F57C2E-06B8-4BA7-9379-6D332B06B189}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{09F57C2E-06B8-4BA7-9379-6D332B06B189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F57C2E-06B8-4BA7-9379-6D332B06B189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423C20CF-438D-41DF-A2C3-650A67B1C667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423C20CF-438D-41DF-A2C3-650A67B1C667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423C20CF-438D-41DF-A2C3-650A67B1C667}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{423C20CF-438D-41DF-A2C3-650A67B1C667}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{423C20CF-438D-41DF-A2C3-650A67B1C667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423C20CF-438D-41DF-A2C3-650A67B1C667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F29527-F01E-4AC0-820F-4CEB00ED3D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F29527-F01E-4AC0-820F-4CEB00ED3D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F29527-F01E-4AC0-820F-4CEB00ED3D77}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{D1F29527-F01E-4AC0-820F-4CEB00ED3D77}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{D1F29527-F01E-4AC0-820F-4CEB00ED3D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F29527-F01E-4AC0-820F-4CEB00ED3D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B86EF1-1E4D-42EB-BBFD-DB83F40F9142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B86EF1-1E4D-42EB-BBFD-DB83F40F9142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B86EF1-1E4D-42EB-BBFD-DB83F40F9142}.EasyTest|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B86EF1-1E4D-42EB-BBFD-DB83F40F9142}.EasyTest|Any CPU.Build.0 = Debug|Any CPU
+		{58B86EF1-1E4D-42EB-BBFD-DB83F40F9142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B86EF1-1E4D-42EB-BBFD-DB83F40F9142}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {508EB4A6-7FB0-4CC2-8578-CABEEA2E345B}
+	EndGlobalSection
+EndGlobal
