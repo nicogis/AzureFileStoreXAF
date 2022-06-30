@@ -63,7 +63,7 @@ You can upload file > 4Mb but you must set in web.config
 ```xml
 
 <system.web>
-    <!--60mb-->
+    <!--Example 60 MB in bytes-->
 	<httpRuntime requestValidationMode="2.0" maxRequestLength="61440" />
 		
 .....
@@ -72,7 +72,7 @@ You can upload file > 4Mb but you must set in web.config
         <security>
 		<requestFiltering>
 			<!--The default size is 30000000 bytes (28.6 MB). MaxValue is 4294967295 bytes (4 GB)-->
-			<!-- Eaxmple 60 MB in bytes -->
+			<!-- Example 60 MB in bytes -->
 			<requestLimits maxAllowedContentLength="61440000" />
 		</requestFiltering>
 	</security>
