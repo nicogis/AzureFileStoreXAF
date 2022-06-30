@@ -43,7 +43,7 @@ private void InitializeComponent() {
 
 - Set in web.config the name of share folder in azure and [connectionstring azure](https://docs.microsoft.com/it-it/azure/storage/files/storage-how-to-create-file-share?tabs=azure-portal) 
  
-![Azurefile](azurefilestorexaf.module/images/azurefile.png)
+![Azurefile](AzureFileStoreXAF.Module/Images/AzureFile.png)
 
 ```xml
 <!--set share folder-->
@@ -54,7 +54,7 @@ private void InitializeComponent() {
 ```
 
 - Set parameter in start code (event login ect)
-```xml
+```csharp
 AzureFileData.AzureFileDataModule.AzureFileConnectionString = ConfigurationManager.AppSettings["ConnectionString"];
 AzureFileData.AzureFileDataModule.AzureFileShareLocation = ConfigurationManager.AppSettings["ShareName"];
 ```
@@ -81,7 +81,7 @@ You can upload file > 4Mb but you must set in web.config
 
 
 
-![Azurefilefiledataxaf](azurefilestorexaf.module/images/azurefilefiledataxaf.png)
+![Azurefilefiledataxaf](AzureFileStoreXAF.Module/Images/AzureFileFiledataXAF.PNG)
 
 
 
