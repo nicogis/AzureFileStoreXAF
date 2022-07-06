@@ -240,7 +240,7 @@ namespace AzureFileData.BusinessObjects
         #region IEmptyCheckable Members
         public bool IsEmpty {
             
-            get { return FileDataHelper.IsFileDataEmpty(this) || !(this.TempSourceStream!= null || File.Exists(RealFileName)); }
+            get { return FileDataHelper.IsFileDataEmpty(this) || !(this.TempSourceStream!= null || (ShareDirectoryClient.GetFileClient(RealFileName).Exists())); }
         }
         #endregion
     }
