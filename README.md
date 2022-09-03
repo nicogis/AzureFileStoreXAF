@@ -1,6 +1,6 @@
 # How to: Store file attachments in the azure file instead of the database (XPO)
 
-- Add in agostic module AzureFileDataModule
+- Add in agnostic module AzureFileDataModule
 
 ```csharp
 /// <summary> 
